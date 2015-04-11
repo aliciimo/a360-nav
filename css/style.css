@@ -1,0 +1,241 @@
+body {
+	font-family: 'Open Sans','Helvetica Neue','Helvetica','Arial',sans-serif;
+   min-height: 500px !important; 
+   height:auto !important; 
+   height: 500px !important; 
+}
+
+#my-nav {
+	left: 0px;
+	height: 100vh;
+	background-color: #182a3d;
+	z-index: 200;
+	width: 70px;
+	cursor: pointer;
+}
+
+
+.open {
+	width: 320px !important;
+	height: 70px;
+	border-radius: 0px !important;
+	cursor: pointer;
+}
+
+
+.sub-open {
+	width: 272px !important;
+}
+
+.option {
+	height: 70px;
+	width: 70px;
+	display: block;
+	cursor: pointer;
+	position: relative;	
+	
+}
+
+
+.rule {
+	height: 1px;
+	width: 70px;
+	background-color: #000;
+
+}
+
+.rule-sub {
+	height: 1px;
+	width: 36px;
+	position: absolute;
+	left: 17px;
+	background-color: #000;
+}
+
+.nav-brand {
+	display: block;
+  	position: absolute;
+  	top: 24px;
+  	left: 21px; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;	
+}
+
+.nav-icon {
+	display: block;
+  	position: absolute;
+  	top: 25px;
+  	left: 25px; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;	
+}
+
+.more {
+	display: block;
+	position: absolute;
+  	bottom: 0px;
+  	left: 31px; 
+  	opacity: 0.5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;	
+}
+
+#drive, #projects, #people {
+	cursor: pointer;
+}
+
+#open {
+	height: 60vh;
+	cursor: pointer;
+	left: 0px;
+}
+
+.more:hover, .hover {
+	opacity: 1;
+}
+
+#more {
+	display: block;
+	position: absolute;
+  	bottom: 31px;
+  	left: 31px;
+  	visibility: hidden;	
+}
+
+.visible {
+	visibility: visible !important;
+}
+
+.flyout {
+	display: inline-block;
+	height: 70px;
+	width: 175px;
+	margin: 0 auto;
+	background-color: #05a7df;
+	-webkit-box-shadow: 3px 5px 30px 0px rgba(0,0,0,0.45);
+	-moz-box-shadow: 3px 5px 30px 0px rgba(0,0,0,0.45);
+	box-shadow: 3px 5px 30px 0px rgba(0,0,0,0.45);
+	z-index: 9999999;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;	
+}
+
+
+.nav-txt {
+	font-weight: 400;
+	font-size: 1.4rem;
+	letter-spacing: 0.06rem;
+	text-decoration: none;
+	visibility: hidden;
+}
+
+.nav-txt-hover {
+	width: 100px;
+	visibility: visible !important;
+	color: #fff;
+	position: absolute;
+	top: 26px;
+	left: 70px;
+	z-index: 999999999999;
+}
+
+.nav-txt-active {
+	visibility: visible !important;
+	color: #05a7df;
+	width: 100px;
+	position: absolute;
+	top: 26px;
+	left: 70px;	
+}
+
+#people-icon {
+	width:20px;
+	height:20px;
+	fill:#fff;
+	z-index: 999999999999;
+}
+
+
+/* Hidden Menu */
+
+.nav-hidden {
+	position: absolute;
+	height: 252px;
+	width: 320px;
+	left: 0;
+	bottom: 0;
+	visibility: hidden;
+}
+
+.option-hidden {
+	height: 40px;
+	width: 320px;	
+}
+
+.store-logos {
+	height: 92px;
+	width: 320px;	
+}
+
+.ini-hidden {
+	height: 40px;
+	width: 320px;
+}
+
+.hover-hidden {
+	background-color: rgba(0,0,0,0.2);
+	opacity: 0.7 !important;
+}
+
+.nav-txt-hidden {
+	cursor: pointer;
+	color: #fff;
+	opacity: 0.5;
+	font-size: 1rem;
+	font-weight: 400;
+	letter-spacing: 0.06rem;
+	padding-left: 31px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.store-wrapper {
+	height: 92px;
+	width: 320px;	
+	padding: 27px 31px;
+}
+
+.apple, .google {
+	display: inline-block;
+	height: 38px !important;
+}
+
+
+
+/* Background */
+
+.screenshot {
+	display: block;
+	float: left;
+	position: absolute;
+	top: 0px;
+	left: 70px;
+	background-image:url("../images/screen.jpg");
+	background-repeat: no-repeat; 
+	background-size: cover;
+	width:476px;
+	height:100vh;
+	z-index: -1000;
+}
